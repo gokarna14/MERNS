@@ -5,7 +5,7 @@ var app = express()
 app.get('/', function(req, res) {
     res.send("This is from node js")
 })
-
+ 
 app.get('/api/hw/', (req, res) => {
     res.send('This is hello world from NodeJS')
 })
